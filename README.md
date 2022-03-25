@@ -1,5 +1,7 @@
 # aws-glue-libs-docker
-Run Glue job locally with docker for AWS China Region particularly because the current version of aws-glue-libs(https://github.com/awslabs/aws-glue-libs) does not support China Region.
+Run Glue job locally with docker for AWS China Region particularly because the current version of aws-glue-libs(https://github.com/awslabs/aws-glue-libs) does not support China Region.  
+
+This is based on the image amazon/aws-glue-libs:glue_libs_3.0.0_image_01. 
 
 ## Pre-requisite
 
