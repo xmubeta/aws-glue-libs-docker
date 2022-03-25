@@ -13,6 +13,7 @@ Setup your default profile of AWS AKSK by 'aws configure'
 2. Setup
 
     cd aws-glue-libs-docker
+    
     bash setup.sh
 
 3. Run
