@@ -1,0 +1,14 @@
+<configuration>
+    <property>
+        <name>fs.s3.impl</name>
+        <value>org.apache.hadoop.fs.s3a.S3AFileSystem</value>
+    </property>
+    <property>
+        <name>fs.s3a.aws.credentials.provider</name>
+        <value>com.amazonaws.auth.DefaultAWSCredentialsProviderChain</value>
+    </property>
+    <property>
+      <name>fs.s3a.endpoint</name>
+      <value>s3.cn-north-1.amazonaws.com.cn</value>
+    </property>
+</configuration>
