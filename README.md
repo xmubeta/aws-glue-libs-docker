@@ -24,7 +24,10 @@ Setup your default profile of AWS AKSK by 'aws configure'
 4. Access the notebook
 
         https://localhost:8888
+
         Try test-pyspark notebook (change S3 path first.)
+
+        ![Jupyter](images/jupyter_notebook.png)
 
 
 ## Issues
