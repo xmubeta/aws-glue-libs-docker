@@ -2,10 +2,11 @@
 Run Glue job locally with docker for AWS China Region particularly because the current version of aws-glue-libs(https://github.com/awslabs/aws-glue-libs) does not support China Region.  
 
 This is based on the image amazon/aws-glue-libs:glue_libs_3.0.0_image_01. While accessing AWS S3, it goes to global AWS region by default. We use core-site.xml to specify China Region S3 endpoint.
-            <property>
-                <name>fs.s3a.endpoint</name>
-                <value>s3.cn-north-1.amazonaws.com.cn</value>
-            </property>
+
+        <property>
+            <name>fs.s3a.endpoint</name>
+            <value>s3.cn-north-1.amazonaws.com.cn</value>
+        </property>
 
 If you are using Ningxia Region (ZHY), please change to s3.cn-northwest-1.amazonaws.com.cn.  
 
