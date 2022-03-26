@@ -43,7 +43,9 @@ Setup your default profile of AWS AKSK by 'aws configure'
 
 ## Issues
 1. Does not support accessing Glue catalog because of aws-glue-libs bug.
+
     不能支持访问Glue的Catalog,以下代码会失败,因为它会尝试访问Global Region.
+    
         glueContext.create_dynamic_frame_from_catalog
 
 
